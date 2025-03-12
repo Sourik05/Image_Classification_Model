@@ -86,3 +86,5 @@
 2025-03-13 03:12:14,655 - image_classifier_api - INFO - Model loaded successfully with classes: ['buildings' 'forest' 'glacier' 'mountain' 'sea' 'street']
 2025-03-13 03:14:00,512 - image_classifier_api - INFO - Prediction request received from user: admin
 2025-03-13 03:14:01,513 - image_classifier_api - INFO - Predicted class: sea with confidence: 0.6182
+2025-03-13 03:22:08,597 - image_classifier_api - INFO - Prediction request received from user: admin
+2025-03-13 03:22:08,688 - image_classifier_api - INFO - Predicted class: glacier with confidence: 0.9982
