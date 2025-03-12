@@ -88,3 +88,17 @@
 2025-03-13 03:14:01,513 - image_classifier_api - INFO - Predicted class: sea with confidence: 0.6182
 2025-03-13 03:22:08,597 - image_classifier_api - INFO - Prediction request received from user: admin
 2025-03-13 03:22:08,688 - image_classifier_api - INFO - Predicted class: glacier with confidence: 0.9982
+2025-03-13 03:28:52,306 - image_classifier_api - INFO - Prediction request received from user: admin
+2025-03-13 03:28:52,395 - image_classifier_api - INFO - Predicted class: glacier with confidence: 0.9982
+2025-03-13 03:36:36,847 - image_classifier_api - INFO - Loading model...
+2025-03-13 03:36:42,050 - image_classifier_api - INFO - Model loaded successfully with classes: ['buildings' 'forest' 'glacier' 'mountain' 'sea' 'street']
+2025-03-13 03:36:46,285 - image_classifier_api - INFO - Loading model...
+2025-03-13 03:36:51,822 - image_classifier_api - INFO - Model loaded successfully with classes: ['buildings' 'forest' 'glacier' 'mountain' 'sea' 'street']
+2025-03-13 03:36:51,858 - image_classifier_api - INFO - Loading model...
+2025-03-13 03:36:57,169 - image_classifier_api - INFO - Model loaded successfully with classes: ['buildings' 'forest' 'glacier' 'mountain' 'sea' 'street']
+2025-03-13 03:37:28,189 - image_classifier_api - INFO - Prediction request received from user: admin
+2025-03-13 03:37:29,011 - image_classifier_api - INFO - Predicted class: glacier with confidence: 0.9982
+2025-03-13 03:39:23,670 - image_classifier_api - INFO - Loading model...
+2025-03-13 03:39:29,303 - image_classifier_api - INFO - Model loaded successfully with classes: ['buildings' 'forest' 'glacier' 'mountain' 'sea' 'street']
+2025-03-13 03:39:29,342 - image_classifier_api - INFO - Loading model...
+2025-03-13 03:39:35,810 - image_classifier_api - INFO - Model loaded successfully with classes: ['buildings' 'forest' 'glacier' 'mountain' 'sea' 'street']
