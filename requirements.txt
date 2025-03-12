@@ -1,4 +1,6 @@
-tensorflow==2.10.1
+tensorflow==2.15.0
+keras==2.15.0
+protobuf==3.20.*
 fastapi==0.105.0
 uvicorn==0.24.0
 python-multipart==0.0.6

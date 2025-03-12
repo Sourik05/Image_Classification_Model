@@ -42,3 +42,33 @@
 2025-03-13 01:09:51,650 - image_classifier_api - INFO - Predicted class: sea with confidence: 0.6096
 2025-03-13 01:11:28,009 - image_classifier_api - INFO - Prediction request received from user: admin
 2025-03-13 01:11:28,100 - image_classifier_api - INFO - Predicted class: glacier with confidence: 0.9984
+2025-03-13 02:16:25,501 - image_classifier_api - INFO - Loading model...
+2025-03-13 02:16:25,522 - image_classifier_api - ERROR - Failed to load model: File format not supported: filepath=models/intel_classifier_deployment. Keras 3 only supports V3 `.keras` files and legacy H5 format files (`.h5` extension). Note that the legacy SavedModel format is not supported by `load_model()` in Keras 3. In order to reload a TensorFlow SavedModel as an inference-only layer in Keras 3, use `keras.layers.TFSMLayer(models/intel_classifier_deployment, call_endpoint='serving_default')` (note that your `call_endpoint` might have a different name).
+2025-03-13 02:23:22,843 - image_classifier_api - INFO - Loading model...
+2025-03-13 02:23:22,857 - image_classifier_api - ERROR - Failed to load model: File format not supported: filepath=models/intel_classifier_deployment. Keras 3 only supports V3 `.keras` files and legacy H5 format files (`.h5` extension). Note that the legacy SavedModel format is not supported by `load_model()` in Keras 3. In order to reload a TensorFlow SavedModel as an inference-only layer in Keras 3, use `keras.layers.TFSMLayer(models/intel_classifier_deployment, call_endpoint='serving_default')` (note that your `call_endpoint` might have a different name).
+2025-03-13 02:33:03,467 - image_classifier_api - INFO - Loading model...
+2025-03-13 02:33:03,753 - tensorflow - WARNING - From C:\Users\Sourik\anaconda3\envs\tf_env\lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+2025-03-13 02:33:03,797 - tensorflow - WARNING - From C:\Users\Sourik\anaconda3\envs\tf_env\lib\site-packages\keras\src\engine\functional.py:156: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-03-13 02:33:08,870 - absl - INFO - Fingerprint not found. Saved model loading will continue.
+2025-03-13 02:33:08,871 - absl - INFO - path_and_singleprint metric could not be logged. Saved model loading will continue.
+2025-03-13 02:33:08,900 - tensorflow - WARNING - From C:\Users\Sourik\anaconda3\envs\tf_env\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+2025-03-13 02:33:09,455 - image_classifier_api - INFO - Model loaded successfully with classes: ['buildings' 'forest' 'glacier' 'mountain' 'sea' 'street']
+2025-03-13 02:33:15,506 - image_classifier_api - INFO - Loading model...
+2025-03-13 02:33:15,801 - tensorflow - WARNING - From C:\Users\Sourik\anaconda3\envs\tf_env\lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+2025-03-13 02:33:15,857 - tensorflow - WARNING - From C:\Users\Sourik\anaconda3\envs\tf_env\lib\site-packages\keras\src\engine\functional.py:156: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-03-13 02:33:21,082 - absl - INFO - Fingerprint not found. Saved model loading will continue.
+2025-03-13 02:33:21,083 - absl - INFO - path_and_singleprint metric could not be logged. Saved model loading will continue.
+2025-03-13 02:33:21,135 - tensorflow - WARNING - From C:\Users\Sourik\anaconda3\envs\tf_env\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+2025-03-13 02:33:21,723 - image_classifier_api - INFO - Model loaded successfully with classes: ['buildings' 'forest' 'glacier' 'mountain' 'sea' 'street']
+2025-03-13 02:33:21,766 - image_classifier_api - INFO - Loading model...
+2025-03-13 02:33:27,047 - absl - INFO - Fingerprint not found. Saved model loading will continue.
+2025-03-13 02:33:27,048 - absl - INFO - path_and_singleprint metric could not be logged. Saved model loading will continue.
+2025-03-13 02:33:27,645 - image_classifier_api - INFO - Model loaded successfully with classes: ['buildings' 'forest' 'glacier' 'mountain' 'sea' 'street']
+2025-03-13 02:35:03,067 - image_classifier_api - INFO - Prediction request received from user: admin
+2025-03-13 02:35:04,265 - image_classifier_api - INFO - Predicted class: sea with confidence: 0.6182
