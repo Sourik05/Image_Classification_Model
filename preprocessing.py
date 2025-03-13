@@ -13,23 +13,29 @@ tf.random.set_seed(42)
 IMG_SIZE = 224  # Standard input size for many pre-trained models
 BATCH_SIZE = 32
 
-# Define global dataset path
-DATASET_PATH = "E:\Soul_Ai\image_classification_project\intel_image_dataset"
+# Define global dataset path inside the current directory
+DATASET_PATH = os.path.join(os.getcwd(), "intel_image_dataset")
 
 def download_dataset():
     """Download Intel Image Classification dataset using KaggleHub and move it to project directory."""
     global DATASET_PATH  # Ensure it's accessible throughout the script
-    print("📥 Downloading Intel Image Classification dataset...")
+    print("\U0001F4E5 Downloading Intel Image Classification dataset...")
 
     try:
         downloaded_path = kagglehub.dataset_download("puneet6060/intel-image-classification")
         print(f"✅ Dataset downloaded at: {downloaded_path}")
 
-        # Move dataset to project folder if needed
-        if not os.path.exists(DATASET_PATH):
-            shutil.move(downloaded_path, DATASET_PATH)
-        else:
-            print("✅ Dataset already exists in project folder, skipping move.")
+        # Create target directory if it doesn't exist
+        os.makedirs(DATASET_PATH, exist_ok=True)
+
+        # Move dataset to project folder
+        for item in os.listdir(downloaded_path):
+            src = os.path.join(downloaded_path, item)
+            dest = os.path.join(DATASET_PATH, item)
+            if os.path.exists(dest):
+                print(f"✅ {item} already exists in the project folder, skipping move.")
+            else:
+                shutil.move(src, dest)
 
         print(f"📂 Dataset moved to: {DATASET_PATH}")
 
