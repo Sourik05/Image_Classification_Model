@@ -23,7 +23,7 @@ natural scenes: **Buildings, Forest, Glacier, Mountain, Sea, and Street**.
 """)
 
 # API connection settings
-API_URL = st.sidebar.text_input("API URL", "http://localhost:8000/predict")
+API_URL = st.sidebar.text_input("API URL", "https://image_classification_project50.com/predict")
 USERNAME = st.sidebar.text_input("Username", "admin")
 PASSWORD = st.sidebar.text_input("Password", "password123", type="password")
 
